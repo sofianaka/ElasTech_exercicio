@@ -7,7 +7,7 @@ public class Excecoes {
     public static void main(String[] args) {
 
 
-        int resultado = 0;
+        int resultado;
         //01
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite dois numeros");
@@ -64,7 +64,7 @@ public class Excecoes {
         }
 
         //05
-        double resto = 0;
+        double resto;
         System.out.println("Digite um numero");
         int numeros = sc.nextInt();
 
